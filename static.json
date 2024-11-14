@@ -8,42 +8,64 @@
     "version": "1.0.0",
     "attributes": {
       "metadata": {
-        "title": "Search | Globus Search Portal"
+        "title": "SC24 | In-Booth Experiment"
       },
       "content": {
-        "headline": "Globus Search Portal"
+        "headline": "SC24 | In-Booth Experiment"
       },
       "features": {
         "transfer": false
       },
       "components": {
         "Result": {
-          "heading": "entries[0].content.name",
+          "heading": "entries[0].content.sample_id",
           "fields": [
             {
-              "label": "Tags",
-              "property": "entries[0].content.tags"
+              "label": "Species",
+              "property": "entries[0].content.spec_species"
             },
             {
-              "label": "Region",
-              "property": "entries[0].content.region"
-            }
+              "label": "Organ",
+              "property": "entries[0].content.spec_organ"
+            },
+            {
+              "label": "Reagent",
+              "property": "entries[0].content.antifade_reagent"
+            },
+            {
+              "label": "Sample Time",
+              "property": "entries[0].content.sample_time"
+            },
+            {
+              "label": "Instrument",
+              "property": "entries[0].content.instrument"
+            },
+            {
+              "label": "Instrument Type",
+              "property": "entries[0].content.instr_type"
+            },
           ]
         }
       },
       "globus": {
         "search": {
-          "index": "78b92aca-e361-4307-8f66-bc448f20e2c3",
+          "index": "510c9948-d915-4846-9929-47e31e84adc2",
           "facets": [
             {
-              "name": "Tags",
-              "field_name": "tags",
+              "name": "Species",
+              "field_name": "spec_species",
               "type": "terms",
               "size": 10
             },
             {
-              "name": "Region",
-              "field_name": "region",
+              "name": "Organ",
+              "field_name": "spec_organ",
+              "type": "terms",
+              "size": 10
+            },
+            {
+              "name": "Reagent",
+              "field_name": "antifade_reagent",
               "type": "terms",
               "size": 10
             }
