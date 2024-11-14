@@ -17,6 +17,26 @@
         "transfer": false
       },
       "components": {
+        "ResultListing": {
+          "fields": [
+            {
+              "label": "Species",
+              "property": "entries[0].content.spec_species"
+            },
+            {
+              "label": "Organ",
+              "property": "entries[0].content.spec_organ"
+            },
+            {
+              "label": "Reagent",
+              "property": "entries[0].content.antifade_reagent"
+            },
+            {
+              "label": "Sample Time",
+              "property": "entries[0].content.sample_time"
+            }
+          ]
+        },
         "Result": {
           "heading": "entries[0].content.sample_id",
           "fields": [
