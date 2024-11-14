@@ -43,7 +43,7 @@
             {
               "label": "Instrument Type",
               "property": "entries[0].content.instr_type"
-            },
+            }
           ]
         }
       },
