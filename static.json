@@ -46,7 +46,8 @@
               "type": "globus.embed",
               "options": {
                 "collection": "fe2feb64-4ac0-4a40-ba90-94b99d06dd2c",
-                "width": "432px"
+                "width": "632px"
+                "height": "474px"
               }
             },
             {
