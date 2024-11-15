@@ -42,7 +42,7 @@
           "fields": [
             {
               "label": "Sample",
-              "property": "entries[0].content.files.url",
+              "property": "entries[0].content.files[0].url",
               "type": "globus.embed",
               "options": {
                 "collection": "fe2feb64-4ac0-4a40-ba90-94b99d06dd2c",
@@ -77,6 +77,12 @@
         }
       },
       "globus": {
+        "application": {
+          "client_id": "c86ac671-00bf-4a91-b47e-f1cf008ca47e",
+          "scopes": [
+            "https://auth.globus.org/scopes/fe2feb64-4ac0-4a40-ba90-94b99d06dd2c/https"
+          ]
+        },
         "search": {
           "index": "510c9948-d915-4846-9929-47e31e84adc2",
           "facets": [
