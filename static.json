@@ -39,7 +39,7 @@
           ]
         },
         "Result": {
-          "heading": "entries[0].content.spec_species & ' ' & entries[0].content.spec_species",
+          "heading": "entries[0].content.spec_species & ' ' & entries[0].content.spec_organ",
           "fields": [
             {
               "label": "Sample",
