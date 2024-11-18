@@ -15,6 +15,7 @@
       },
       "features": {
         "transfer": false
+        "jsonata": true
       },
       "components": {
         "ResultListing": {
@@ -38,7 +39,7 @@
           ]
         },
         "Result": {
-          "heading": "entries[0].content.sample_id",
+          "heading": "entries[0].content.spec_species & ' ' & entries[0].content.spec_species",
           "fields": [
             {
               "label": "Sample",
