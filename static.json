@@ -14,7 +14,7 @@
         "headline": "SC24 | In-Booth Experiment"
       },
       "features": {
-        "transfer": false
+        "transfer": false,
         "jsonata": true
       },
       "components": {
